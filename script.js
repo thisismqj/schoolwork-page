@@ -6,19 +6,26 @@ var pages=[
     "webs/char/kaiji.html",
     "webs/char/tomonaga.html",
     "webs/char/hidetora.html"
-    // "index.html"
 ];
-var gallery_pages={
-};
-var plot_pages={
-
-};
+var gallery_pages=[
+    "webs/gallery/1.html",
+    "webs/gallery/2.html",
+    "webs/gallery/3.html",
+    "webs/gallery/4.html"
+];
+var plot_pages=[
+    "webs/plot/plot1.html",
+    "webs/plot/plot2.html",
+    "webs/plot/plot3.html"
+];
 var comment_pages={
 
 };
-var char_pages={
-
-};
+var char_pages=[
+    "webs/char/kaiji.html",
+    "webs/char/tomonaga.html",
+    "webs/char/hidetora.html"
+];
 var texts = new Array();
 var _pi = 0;
 var card_ptr = 1;
