@@ -4,6 +4,7 @@
         <meta charset="utf-8"/>
         <title>逆境无赖介绍页-MQJ</title>
         <link rel="stylesheet" type="text/css" href="styles.css" />
+        <link rel="stylesheet" type="text/css" href="webs/char/idcard.css" />
         <script src="script.js"> </script>
     </head>
     <body>
@@ -23,12 +24,13 @@
             <div class="card prev" onclick="roll_left()">
                 <p>Loading...</p>
             </div>
-            <div class="card current" onclick="window.open(pages[card_ptr])">
+            <div class="card current" onclick="window.open(pages[card_ptr], '_self')">
                 <p>Loading...</p>
             </div>
             <div class="card next" onclick="roll_right()">
                 <p>Loading...</p>
             </div>
         </div>
+        <div class="back-button" onclick="window.location.href='https://lyc20060601.github.io/210-/'"><h2>返回</h2></div>
     </body>
 </html>
