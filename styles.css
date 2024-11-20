@@ -1,0 +1,75 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+body {
+    background-image:url("images/background.jfif");
+    background-size:100%;
+    background-blend-mode: multiply;
+    background-color:rgba(0,0,0,.8);
+}
+.banner {
+    display:inline-block;
+    width:100%;
+    background-color: brown;
+}
+#title {
+    font-size:xx-large;
+    font-family:serif;
+    text-align:center;
+    font-style:italic;
+    color:white;
+    /*background-color:yellow;*/
+}
+.nav {
+    display:flex;
+    justify-content: center;
+    overflow: hidden;
+    background-color: #333;
+}
+.nav a{
+    display: inline-block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.nav a:hover {
+    border-radius:4px;
+    background-color: #ddd;
+    color: black;
+}
+.card-stack {
+    display:flex;
+    padding: 50px 50px;
+}
+.card {
+    display:inline;
+    overflow:hidden;
+    color:#ddd;
+    width:75%;
+    height:800px;
+    padding:5px;
+    border-radius: 4px;
+    margin:8px;
+    background-color:yellowgreen;
+}
+.prev, .next {
+    animation: shrink 0.3s ease;
+    flex:1;
+    background-color:rgb(85, 9, 81);
+}
+.current {
+    flex:4;
+}
+@keyframes shrink {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(0.3);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
