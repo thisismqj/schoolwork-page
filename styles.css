@@ -52,15 +52,27 @@ body {
     padding:5px;
     border-radius: 4px;
     margin:8px;
-    background-color:yellowgreen;
+    background-color:#1c340b;
 }
 .prev, .next {
     animation: shrink 0.3s ease;
     flex:1;
-    background-color:rgb(85, 9, 81);
+    transition:.15s;
+    background-color:rgb(64, 7, 61);
+}
+.prev:hover, .next:hover {
+    flex:2;
+    transition:.15s;
+    background-color:rgb(139, 18, 133);
 }
 .current {
     flex:4;
+    transition:.15s;
+}
+.current:hover {
+    flex:5;
+    transition:.15s;
+    background-color: #49851d;
 }
 @keyframes shrink {
     0% {
