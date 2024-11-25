@@ -44,7 +44,7 @@ update_cards = function() {
     card_ptr=1;
     xhr.open("GET", pages[0], true);
     xhr.send();
-    setTimeout(card_update, 300);
+    setTimeout(card_update, 500);
     card_update();
 }
 window.onload = function() {
